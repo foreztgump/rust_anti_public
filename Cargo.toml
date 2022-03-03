@@ -1,0 +1,11 @@
+[package]
+name = "anti_public_take_1"
+version = "0.1.0"
+authors = ["ForeztGump - TB"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+indicatif = "0.16.1"
+rusqlite = {version = "0.21.0", features = ["bundled"] }
